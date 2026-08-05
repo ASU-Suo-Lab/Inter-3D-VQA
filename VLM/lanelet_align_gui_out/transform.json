@@ -1,0 +1,21 @@
+{
+  "osm_path": "D:\\data\\sunlakes\\eccv\\ASU_20260106_lanelet2.osm",
+  "ann_file": "E:\\VLM_code\\sunlakes_infos_train.pkl",
+  "qa_json": "E:\\VLM_code\\intersection_qa_pairs_v2.json",
+  "axis_order": "latlon",
+  "transform_type": "SE(2)",
+  "map_to_lidar": {
+    "tx": 20.957342201091016,
+    "ty": 3.411154407255994,
+    "yaw_rad": 1.587085660002149,
+    "yaw_deg": 90.93331004385787
+  },
+  "cost": 1.5196274057200143,
+  "lidar_reference": {
+    "frame_count": 874,
+    "box_count": 9734,
+    "moving_box_count": 6394
+  },
+  "lanelet_count": 248,
+  "saved_from": "align_lanelet_to_lidar_gui.py"
+}

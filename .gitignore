@@ -6,6 +6,35 @@ __pycache__/
 # C extensions
 *.so
 
+# Local secrets and machine-specific settings
+.env.*
+!.env.example
+**/api_keys.local.json
+**/credentials.local.json
+
+# Model weights
+**/weights/
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Project datasets
+sunlakes_infos_trainval.pkl
+
+# Generated LiDAR manifests and caches
+data/intersection_lidar_prepared/
+cache/
+
+# Training and evaluation outputs
+LlamaFactory/saves/
+LlamaFactory/eval/
+VLM/work_dirs/
+wandb/
+runs/
+outputs/
+checkpoints/
+
 # Distribution / packaging
 .Python
 build/

@@ -1,0 +1,61 @@
+### model
+model_name_or_path: Qwen/Qwen3-VL-4B-Instruct
+adapter_name_or_path: saves/InterGeo-qwen3vl_4b/v5/train
+image_max_pixels: 262144
+video_max_pixels: 16384
+trust_remote_code: true
+use_lidar_modality: true
+use_lidar_object_features: true
+use_lidar_object_geometry_features: false
+use_lidar_object_numeric_features: false
+use_lidar_scene_features: true
+use_lidar_template_router: true
+lidar_encoder_mode: projection_only
+lidar_scene_memory_mode: direct
+lidar_hidden_size: 512
+lidar_object_prefix_length: 16
+lidar_object_token_dim: 523
+lidar_object_geometry_token_dim: 128
+lidar_object_numeric_token_dim: 13
+lidar_object_numeric_label_vocab_size: 16
+lidar_object_numeric_label_emb_dim: 32
+lidar_scene_token_dim: 386
+lidar_scene_token_length: 256
+lidar_scene_memory_length: 64
+lidar_cross_attention_heads: 8
+lidar_decoder_adapter_layers: 4
+lidar_decoder_adapter_heads: 8
+lidar_decoder_adapter_gate_bias: -5.0
+lidar_template_router_output_dim: 3
+lidar_template_router_reset_on_load: true
+lidar_gate_usage_weight: 0.003
+
+### method
+stage: sft
+do_predict: true
+finetuning_type: lora
+
+### dataset
+dataset_dir: data/intersection_vqa_lidar_rawscene_objroute_v2
+eval_dataset: intersection_vqa_lidar_rawscene_objroute_v2_val
+template: qwen3_vl_nothink
+cutoff_len: 4096
+overwrite_cache: true
+preprocessing_num_workers: 16
+dataloader_num_workers: 4
+
+### output
+output_dir: saves/InterGeo-qwen3vl_4b/v5/predict
+overwrite_output_dir: true
+report_to: none
+
+### eval
+predict_with_generate: true
+per_device_eval_batch_size: 1
+bf16: true
+
+### generation
+do_sample: false
+temperature: 1.0
+num_beams: 1
+max_new_tokens: 1024

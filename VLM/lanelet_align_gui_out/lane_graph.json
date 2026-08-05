@@ -1,0 +1,2534 @@
+{
+  "axis_order": "latlon",
+  "transform_type": "SE(2)",
+  "map_to_lidar": {
+    "tx": 20.957342201091016,
+    "ty": 3.411154407255994,
+    "yaw_rad": 1.587085660002149,
+    "yaw_deg": 90.93331004385787
+  },
+  "lane_graph": {
+    "-1": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-200"
+      ],
+      "successors": [
+        "-213"
+      ]
+    },
+    "-2": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-198"
+      ],
+      "successors": [
+        "-214"
+      ]
+    },
+    "-3": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-197",
+        "-202"
+      ],
+      "successors": [
+        "-209"
+      ]
+    },
+    "-4": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-210"
+      ]
+    },
+    "-5": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-211",
+        "-212"
+      ]
+    },
+    "-6": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-216",
+        "-217"
+      ],
+      "successors": []
+    },
+    "-7": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-215",
+        "-218"
+      ],
+      "successors": []
+    },
+    "-8": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-237"
+      ],
+      "successors": [
+        "-175"
+      ]
+    },
+    "-9": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-235"
+      ],
+      "successors": [
+        "-178"
+      ]
+    },
+    "-10": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-234"
+      ],
+      "successors": [
+        "-174",
+        "-180"
+      ]
+    },
+    "-11": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-233"
+      ],
+      "successors": [
+        "-177",
+        "-179"
+      ]
+    },
+    "-12": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-238"
+      ],
+      "successors": [
+        "-176"
+      ]
+    },
+    "-13": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-236"
+      ],
+      "successors": [
+        "-182"
+      ]
+    },
+    "-14": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-18"
+      ]
+    },
+    "-15": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-240"
+      ],
+      "successors": [
+        "-19"
+      ]
+    },
+    "-16": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-241"
+      ],
+      "successors": [
+        "-20"
+      ]
+    },
+    "-17": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-243"
+      ],
+      "successors": [
+        "-21"
+      ]
+    },
+    "-18": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-14"
+      ],
+      "successors": [
+        "-22"
+      ]
+    },
+    "-19": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-15"
+      ],
+      "successors": [
+        "-23"
+      ]
+    },
+    "-20": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-16"
+      ],
+      "successors": [
+        "-24"
+      ]
+    },
+    "-21": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-17"
+      ],
+      "successors": [
+        "-25"
+      ]
+    },
+    "-22": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-18"
+      ],
+      "successors": []
+    },
+    "-23": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-19"
+      ],
+      "successors": [
+        "-222",
+        "-224"
+      ]
+    },
+    "-24": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-20"
+      ],
+      "successors": [
+        "-226"
+      ]
+    },
+    "-25": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-21"
+      ],
+      "successors": [
+        "-221"
+      ]
+    },
+    "-26": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-189"
+      ],
+      "successors": [
+        "-237"
+      ]
+    },
+    "-27": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-191"
+      ],
+      "successors": [
+        "-235"
+      ]
+    },
+    "-28": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-194"
+      ],
+      "successors": [
+        "-234"
+      ]
+    },
+    "-29": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-190"
+      ],
+      "successors": [
+        "-233"
+      ]
+    },
+    "-30": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-192",
+        "-193"
+      ],
+      "successors": [
+        "-236",
+        "-238"
+      ]
+    },
+    "-31": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-213"
+      ],
+      "successors": [
+        "-189"
+      ]
+    },
+    "-32": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-214"
+      ],
+      "successors": [
+        "-191"
+      ]
+    },
+    "-33": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-209"
+      ],
+      "successors": [
+        "-194"
+      ]
+    },
+    "-34": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-210"
+      ],
+      "successors": [
+        "-190"
+      ]
+    },
+    "-35": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-211"
+      ],
+      "successors": [
+        "-193"
+      ]
+    },
+    "-36": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-212"
+      ],
+      "successors": [
+        "-192"
+      ]
+    },
+    "-37": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-175",
+        "-186"
+      ],
+      "successors": []
+    },
+    "-38": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-178"
+      ],
+      "successors": []
+    },
+    "-39": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-174",
+        "-183"
+      ],
+      "successors": []
+    },
+    "-40": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-177"
+      ],
+      "successors": []
+    },
+    "-41": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-176",
+        "-185"
+      ],
+      "successors": []
+    },
+    "-42": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": []
+    },
+    "-43": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-196"
+      ],
+      "successors": [
+        "-168"
+      ]
+    },
+    "-44": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-170"
+      ]
+    },
+    "-45": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-169"
+      ]
+    },
+    "-46": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-245",
+        "-246",
+        "-247"
+      ],
+      "successors": [
+        "-216"
+      ]
+    },
+    "-47": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-248"
+      ],
+      "successors": [
+        "-215"
+      ]
+    },
+    "-48": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-244"
+      ],
+      "successors": [
+        "-220"
+      ]
+    },
+    "-49": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-146"
+      ],
+      "successors": [
+        "-247"
+      ]
+    },
+    "-50": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-147"
+      ],
+      "successors": [
+        "-245"
+      ]
+    },
+    "-51": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-148"
+      ],
+      "successors": [
+        "-246"
+      ]
+    },
+    "-52": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-149"
+      ],
+      "successors": [
+        "-248"
+      ]
+    },
+    "-53": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-150"
+      ],
+      "successors": [
+        "-244"
+      ]
+    },
+    "-54": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-222"
+      ],
+      "successors": [
+        "-57",
+        "-60",
+        "-63",
+        "-66"
+      ]
+    },
+    "-55": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-227",
+        "-229"
+      ],
+      "successors": [
+        "-58",
+        "-61",
+        "-64",
+        "-67"
+      ]
+    },
+    "-56": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-221",
+        "-228"
+      ],
+      "successors": [
+        "-59",
+        "-62",
+        "-65",
+        "-68"
+      ]
+    },
+    "-57": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-54",
+        "-60",
+        "-63"
+      ],
+      "successors": [
+        "-60",
+        "-63",
+        "-66"
+      ]
+    },
+    "-58": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-55",
+        "-61",
+        "-64"
+      ],
+      "successors": [
+        "-61",
+        "-64",
+        "-67"
+      ]
+    },
+    "-59": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-56",
+        "-62",
+        "-65"
+      ],
+      "successors": [
+        "-62",
+        "-65",
+        "-68"
+      ]
+    },
+    "-60": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-54",
+        "-57",
+        "-63"
+      ],
+      "successors": [
+        "-57",
+        "-63",
+        "-66"
+      ]
+    },
+    "-61": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-55",
+        "-58",
+        "-64"
+      ],
+      "successors": [
+        "-58",
+        "-64",
+        "-67"
+      ]
+    },
+    "-62": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-56",
+        "-59",
+        "-65"
+      ],
+      "successors": [
+        "-59",
+        "-65",
+        "-68"
+      ]
+    },
+    "-63": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-54",
+        "-57",
+        "-60"
+      ],
+      "successors": [
+        "-57",
+        "-60",
+        "-66"
+      ]
+    },
+    "-64": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-55",
+        "-58",
+        "-61"
+      ],
+      "successors": [
+        "-58",
+        "-61",
+        "-67"
+      ]
+    },
+    "-65": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-56",
+        "-59",
+        "-62"
+      ],
+      "successors": [
+        "-59",
+        "-62",
+        "-68"
+      ]
+    },
+    "-66": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-54",
+        "-57",
+        "-60",
+        "-63"
+      ],
+      "successors": [
+        "-69",
+        "-72"
+      ]
+    },
+    "-67": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-55",
+        "-58",
+        "-61",
+        "-64"
+      ],
+      "successors": [
+        "-70",
+        "-73"
+      ]
+    },
+    "-68": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-56",
+        "-59",
+        "-62",
+        "-65"
+      ],
+      "successors": [
+        "-71",
+        "-74"
+      ]
+    },
+    "-69": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-66"
+      ],
+      "successors": [
+        "-72"
+      ]
+    },
+    "-70": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-67"
+      ],
+      "successors": [
+        "-73"
+      ]
+    },
+    "-71": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-68"
+      ],
+      "successors": [
+        "-74"
+      ]
+    },
+    "-72": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-66",
+        "-69"
+      ],
+      "successors": [
+        "-75",
+        "-78"
+      ]
+    },
+    "-73": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-67",
+        "-70"
+      ],
+      "successors": [
+        "-76",
+        "-79"
+      ]
+    },
+    "-74": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-68",
+        "-71"
+      ],
+      "successors": [
+        "-77",
+        "-80"
+      ]
+    },
+    "-75": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-72"
+      ],
+      "successors": [
+        "-78"
+      ]
+    },
+    "-76": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-73"
+      ],
+      "successors": [
+        "-79"
+      ]
+    },
+    "-77": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-74"
+      ],
+      "successors": [
+        "-80"
+      ]
+    },
+    "-78": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-72",
+        "-75"
+      ],
+      "successors": [
+        "-81",
+        "-84"
+      ]
+    },
+    "-79": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-73",
+        "-76"
+      ],
+      "successors": [
+        "-82",
+        "-85"
+      ]
+    },
+    "-80": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-74",
+        "-77"
+      ],
+      "successors": [
+        "-83",
+        "-86"
+      ]
+    },
+    "-81": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-78"
+      ],
+      "successors": [
+        "-84"
+      ]
+    },
+    "-82": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-79"
+      ],
+      "successors": [
+        "-85"
+      ]
+    },
+    "-83": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-80"
+      ],
+      "successors": [
+        "-86"
+      ]
+    },
+    "-84": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-78",
+        "-81"
+      ],
+      "successors": [
+        "-87",
+        "-90"
+      ]
+    },
+    "-85": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-79",
+        "-82"
+      ],
+      "successors": [
+        "-88",
+        "-91"
+      ]
+    },
+    "-86": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-80",
+        "-83"
+      ],
+      "successors": [
+        "-89",
+        "-92"
+      ]
+    },
+    "-87": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-84"
+      ],
+      "successors": [
+        "-90"
+      ]
+    },
+    "-88": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-85"
+      ],
+      "successors": [
+        "-91"
+      ]
+    },
+    "-89": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-86"
+      ],
+      "successors": [
+        "-92"
+      ]
+    },
+    "-90": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-84",
+        "-87"
+      ],
+      "successors": [
+        "-93"
+      ]
+    },
+    "-91": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-85",
+        "-88"
+      ],
+      "successors": [
+        "-94"
+      ]
+    },
+    "-92": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-86",
+        "-89"
+      ],
+      "successors": [
+        "-95"
+      ]
+    },
+    "-93": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-90"
+      ],
+      "successors": [
+        "-96",
+        "-99"
+      ]
+    },
+    "-94": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-91"
+      ],
+      "successors": [
+        "-100",
+        "-97"
+      ]
+    },
+    "-95": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-92"
+      ],
+      "successors": [
+        "-101",
+        "-98"
+      ]
+    },
+    "-96": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-93"
+      ],
+      "successors": [
+        "-99"
+      ]
+    },
+    "-97": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-94"
+      ],
+      "successors": [
+        "-100"
+      ]
+    },
+    "-98": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-95"
+      ],
+      "successors": [
+        "-101"
+      ]
+    },
+    "-99": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-93",
+        "-96"
+      ],
+      "successors": []
+    },
+    "-100": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-94",
+        "-97"
+      ],
+      "successors": []
+    },
+    "-101": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-95",
+        "-98"
+      ],
+      "successors": []
+    },
+    "-102": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-203"
+      ],
+      "successors": [
+        "-108"
+      ]
+    },
+    "-103": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-208"
+      ],
+      "successors": [
+        "-109"
+      ]
+    },
+    "-104": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-199",
+        "-207"
+      ],
+      "successors": [
+        "-110"
+      ]
+    },
+    "-105": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-111",
+        "-112"
+      ]
+    },
+    "-106": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-111",
+        "-112",
+        "-113"
+      ]
+    },
+    "-107": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-112",
+        "-113"
+      ]
+    },
+    "-108": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-102"
+      ],
+      "successors": [
+        "-114",
+        "-120"
+      ]
+    },
+    "-109": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-103"
+      ],
+      "successors": [
+        "-115",
+        "-121"
+      ]
+    },
+    "-110": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-104"
+      ],
+      "successors": [
+        "-116",
+        "-122"
+      ]
+    },
+    "-111": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-105",
+        "-106"
+      ],
+      "successors": [
+        "-117",
+        "-118",
+        "-123",
+        "-124"
+      ]
+    },
+    "-112": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-105",
+        "-106",
+        "-107"
+      ],
+      "successors": [
+        "-117",
+        "-118",
+        "-119",
+        "-123",
+        "-124",
+        "-125"
+      ]
+    },
+    "-113": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-106",
+        "-107"
+      ],
+      "successors": [
+        "-118",
+        "-119",
+        "-124",
+        "-125"
+      ]
+    },
+    "-114": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-108"
+      ],
+      "successors": [
+        "-120"
+      ]
+    },
+    "-115": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-109"
+      ],
+      "successors": [
+        "-121"
+      ]
+    },
+    "-116": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-110"
+      ],
+      "successors": [
+        "-122"
+      ]
+    },
+    "-117": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-111",
+        "-112",
+        "-118"
+      ],
+      "successors": [
+        "-118",
+        "-123",
+        "-124"
+      ]
+    },
+    "-118": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-111",
+        "-112",
+        "-113",
+        "-117",
+        "-119"
+      ],
+      "successors": [
+        "-117",
+        "-119",
+        "-123",
+        "-124",
+        "-125"
+      ]
+    },
+    "-119": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-112",
+        "-113",
+        "-118"
+      ],
+      "successors": [
+        "-118",
+        "-124",
+        "-125"
+      ]
+    },
+    "-120": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-108",
+        "-114"
+      ],
+      "successors": []
+    },
+    "-121": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-109",
+        "-115"
+      ],
+      "successors": []
+    },
+    "-122": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-110",
+        "-116"
+      ],
+      "successors": []
+    },
+    "-123": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-111",
+        "-112",
+        "-117",
+        "-118"
+      ],
+      "successors": []
+    },
+    "-124": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-111",
+        "-112",
+        "-113",
+        "-117",
+        "-118",
+        "-119"
+      ],
+      "successors": []
+    },
+    "-125": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-112",
+        "-113",
+        "-118",
+        "-119"
+      ],
+      "successors": []
+    },
+    "-126": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": []
+    },
+    "-127": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-181",
+        "-185",
+        "-188"
+      ]
+    },
+    "-128": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-180",
+        "-184",
+        "-187"
+      ],
+      "successors": [
+        "-130",
+        "-132"
+      ]
+    },
+    "-129": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-179",
+        "-188"
+      ],
+      "successors": [
+        "-131",
+        "-133"
+      ]
+    },
+    "-130": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-128"
+      ],
+      "successors": [
+        "-132"
+      ]
+    },
+    "-131": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-129"
+      ],
+      "successors": [
+        "-133"
+      ]
+    },
+    "-132": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-128",
+        "-130"
+      ],
+      "successors": [
+        "-134"
+      ]
+    },
+    "-133": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-129",
+        "-131"
+      ],
+      "successors": [
+        "-135"
+      ]
+    },
+    "-134": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-132"
+      ],
+      "successors": [
+        "-136"
+      ]
+    },
+    "-135": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-133"
+      ],
+      "successors": [
+        "-137"
+      ]
+    },
+    "-136": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-134"
+      ],
+      "successors": [
+        "-138",
+        "-140"
+      ]
+    },
+    "-137": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-135"
+      ],
+      "successors": [
+        "-139",
+        "-141"
+      ]
+    },
+    "-138": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-136"
+      ],
+      "successors": [
+        "-140"
+      ]
+    },
+    "-139": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-137"
+      ],
+      "successors": [
+        "-141"
+      ]
+    },
+    "-140": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-136",
+        "-138"
+      ],
+      "successors": [
+        "-142"
+      ]
+    },
+    "-141": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-137",
+        "-139"
+      ],
+      "successors": [
+        "-143"
+      ]
+    },
+    "-142": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-140"
+      ],
+      "successors": [
+        "-144"
+      ]
+    },
+    "-143": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-141"
+      ],
+      "successors": [
+        "-145"
+      ]
+    },
+    "-144": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-142"
+      ],
+      "successors": []
+    },
+    "-145": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-143"
+      ],
+      "successors": []
+    },
+    "-146": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-201"
+      ],
+      "successors": [
+        "-49"
+      ]
+    },
+    "-147": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-206"
+      ],
+      "successors": [
+        "-50"
+      ]
+    },
+    "-148": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-205"
+      ],
+      "successors": [
+        "-51"
+      ]
+    },
+    "-149": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-52"
+      ]
+    },
+    "-150": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-53"
+      ]
+    },
+    "-151": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-172"
+      ]
+    },
+    "-152": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-173"
+      ]
+    },
+    "-153": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-227",
+        "-231"
+      ]
+    },
+    "-154": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-223",
+        "-228",
+        "-232"
+      ]
+    },
+    "-155": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": []
+    },
+    "-156": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-168"
+      ],
+      "successors": [
+        "-240"
+      ]
+    },
+    "-157": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-171"
+      ],
+      "successors": [
+        "-242"
+      ]
+    },
+    "-158": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-170"
+      ],
+      "successors": [
+        "-241"
+      ]
+    },
+    "-159": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-169"
+      ],
+      "successors": [
+        "-243"
+      ]
+    },
+    "-160": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-217"
+      ]
+    },
+    "-161": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-218",
+        "-219"
+      ]
+    },
+    "-162": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-230"
+      ],
+      "successors": []
+    },
+    "-163": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-224"
+      ],
+      "successors": []
+    },
+    "-164": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-225"
+      ],
+      "successors": []
+    },
+    "-165": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-231"
+      ],
+      "successors": []
+    },
+    "-166": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-226",
+        "-232"
+      ],
+      "successors": []
+    },
+    "-167": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": []
+    },
+    "-168": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-43"
+      ],
+      "successors": [
+        "-156"
+      ]
+    },
+    "-169": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-45"
+      ],
+      "successors": [
+        "-159"
+      ]
+    },
+    "-170": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-44"
+      ],
+      "successors": [
+        "-158"
+      ]
+    },
+    "-171": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-173"
+      ],
+      "successors": [
+        "-157"
+      ]
+    },
+    "-172": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-151"
+      ],
+      "successors": []
+    },
+    "-173": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-152"
+      ],
+      "successors": [
+        "-171"
+      ]
+    },
+    "-174": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-10"
+      ],
+      "successors": [
+        "-39"
+      ]
+    },
+    "-175": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-181",
+        "-8"
+      ],
+      "successors": [
+        "-37"
+      ]
+    },
+    "-176": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-12"
+      ],
+      "successors": [
+        "-41"
+      ]
+    },
+    "-177": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-11"
+      ],
+      "successors": [
+        "-184",
+        "-40"
+      ]
+    },
+    "-178": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-9"
+      ],
+      "successors": [
+        "-38"
+      ]
+    },
+    "-179": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-11"
+      ],
+      "successors": [
+        "-129",
+        "-183"
+      ]
+    },
+    "-180": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-10"
+      ],
+      "successors": [
+        "-128"
+      ]
+    },
+    "-181": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-127"
+      ],
+      "successors": [
+        "-175"
+      ]
+    },
+    "-182": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-13"
+      ],
+      "successors": [
+        "-186",
+        "-187"
+      ]
+    },
+    "-183": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-179",
+        "-188"
+      ],
+      "successors": [
+        "-39"
+      ]
+    },
+    "-184": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-177"
+      ],
+      "successors": [
+        "-128"
+      ]
+    },
+    "-185": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-127"
+      ],
+      "successors": [
+        "-41"
+      ]
+    },
+    "-186": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-182"
+      ],
+      "successors": [
+        "-37"
+      ]
+    },
+    "-187": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-182"
+      ],
+      "successors": [
+        "-128"
+      ]
+    },
+    "-188": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-127"
+      ],
+      "successors": [
+        "-129",
+        "-183"
+      ]
+    },
+    "-189": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-31"
+      ],
+      "successors": [
+        "-26"
+      ]
+    },
+    "-190": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-34"
+      ],
+      "successors": [
+        "-29"
+      ]
+    },
+    "-191": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-32"
+      ],
+      "successors": [
+        "-27"
+      ]
+    },
+    "-192": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-36"
+      ],
+      "successors": [
+        "-30"
+      ]
+    },
+    "-193": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-35"
+      ],
+      "successors": [
+        "-30"
+      ]
+    },
+    "-194": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-33"
+      ],
+      "successors": [
+        "-28"
+      ]
+    },
+    "-195": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": []
+    },
+    "-196": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-43"
+      ]
+    },
+    "-197": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-3"
+      ]
+    },
+    "-198": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-2"
+      ]
+    },
+    "-199": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-104"
+      ]
+    },
+    "-200": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-1"
+      ]
+    },
+    "-201": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-146"
+      ]
+    },
+    "-202": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-3"
+      ]
+    },
+    "-203": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-102"
+      ]
+    },
+    "-204": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": []
+    },
+    "-205": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-148"
+      ]
+    },
+    "-206": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-147"
+      ]
+    },
+    "-207": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-104"
+      ]
+    },
+    "-208": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-103"
+      ]
+    },
+    "-209": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-3"
+      ],
+      "successors": [
+        "-33"
+      ]
+    },
+    "-210": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-4"
+      ],
+      "successors": [
+        "-34"
+      ]
+    },
+    "-211": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-5"
+      ],
+      "successors": [
+        "-35"
+      ]
+    },
+    "-212": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-5"
+      ],
+      "successors": [
+        "-36"
+      ]
+    },
+    "-213": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-1"
+      ],
+      "successors": [
+        "-31"
+      ]
+    },
+    "-214": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-2"
+      ],
+      "successors": [
+        "-32"
+      ]
+    },
+    "-215": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-47"
+      ],
+      "successors": [
+        "-7"
+      ]
+    },
+    "-216": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-219",
+        "-46"
+      ],
+      "successors": [
+        "-6"
+      ]
+    },
+    "-217": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-160",
+        "-220"
+      ],
+      "successors": [
+        "-6"
+      ]
+    },
+    "-218": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-161"
+      ],
+      "successors": [
+        "-7"
+      ]
+    },
+    "-219": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-161"
+      ],
+      "successors": [
+        "-216"
+      ]
+    },
+    "-220": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-48"
+      ],
+      "successors": [
+        "-217"
+      ]
+    },
+    "-221": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-25"
+      ],
+      "successors": [
+        "-230",
+        "-56"
+      ]
+    },
+    "-222": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-23"
+      ],
+      "successors": [
+        "-54"
+      ]
+    },
+    "-223": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-154"
+      ],
+      "successors": [
+        "-225"
+      ]
+    },
+    "-224": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-23"
+      ],
+      "successors": [
+        "-163"
+      ]
+    },
+    "-225": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-223"
+      ],
+      "successors": [
+        "-164"
+      ]
+    },
+    "-226": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-24"
+      ],
+      "successors": [
+        "-166"
+      ]
+    },
+    "-227": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-153"
+      ],
+      "successors": [
+        "-55"
+      ]
+    },
+    "-228": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-154"
+      ],
+      "successors": [
+        "-230",
+        "-56"
+      ]
+    },
+    "-229": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": [
+        "-55"
+      ]
+    },
+    "-230": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-221",
+        "-228"
+      ],
+      "successors": [
+        "-162"
+      ]
+    },
+    "-231": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-153"
+      ],
+      "successors": [
+        "-165"
+      ]
+    },
+    "-232": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-154"
+      ],
+      "successors": [
+        "-166"
+      ]
+    },
+    "-233": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-29"
+      ],
+      "successors": [
+        "-11"
+      ]
+    },
+    "-234": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-28"
+      ],
+      "successors": [
+        "-10"
+      ]
+    },
+    "-235": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-27"
+      ],
+      "successors": [
+        "-9"
+      ]
+    },
+    "-236": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-30"
+      ],
+      "successors": [
+        "-13"
+      ]
+    },
+    "-237": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-26"
+      ],
+      "successors": [
+        "-8"
+      ]
+    },
+    "-238": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-30"
+      ],
+      "successors": [
+        "-12"
+      ]
+    },
+    "-239": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [],
+      "successors": []
+    },
+    "-240": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-156"
+      ],
+      "successors": [
+        "-15"
+      ]
+    },
+    "-241": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-158"
+      ],
+      "successors": [
+        "-16"
+      ]
+    },
+    "-242": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-157"
+      ],
+      "successors": []
+    },
+    "-243": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-159"
+      ],
+      "successors": [
+        "-17"
+      ]
+    },
+    "-244": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-53"
+      ],
+      "successors": [
+        "-48"
+      ]
+    },
+    "-245": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-50"
+      ],
+      "successors": [
+        "-46"
+      ]
+    },
+    "-246": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-51"
+      ],
+      "successors": [
+        "-46"
+      ]
+    },
+    "-247": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-49"
+      ],
+      "successors": [
+        "-46"
+      ]
+    },
+    "-248": {
+      "left_neighbors": [],
+      "right_neighbors": [],
+      "predecessors": [
+        "-52"
+      ],
+      "successors": [
+        "-47"
+      ]
+    }
+  }
+}

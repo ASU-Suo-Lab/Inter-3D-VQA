@@ -1,0 +1,78 @@
+[tool.black]
+line-length = 240
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "OpenDriveVLA"
+version = "1.0.0.dev1"
+description = "OpenDriveVLA SunLakes V5"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[project.optional-dependencies]
+v5 = [
+    "accelerate",
+    "av",
+    "bert-score",
+    "datasets",
+    "decord",
+    "einops",
+    "ftfy",
+    "matplotlib",
+    "mmengine==0.9.0",
+    "motmetrics==1.4.0",
+    "numpy==1.26.1",
+    "open_clip_torch",
+    "opencv-python",
+    "peft==0.4.0",
+    "requests",
+    "scikit-learn==1.2.2",
+    "scipy",
+    "sentence-transformers==2.7.0",
+    "sentencepiece~=0.1.99",
+    "timm",
+    "tokenizers~=0.15.2",
+    "transformers==4.40.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["llava*", "opendrivevla_v5*"]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "docs",
+    "dist*",
+    "playground*",
+    "scripts*",
+    "tests*",
+    "checkpoints*",
+    "project_checkpoints*",
+    "debug_checkpoints*",
+    "mlx_configs*",
+    "wandb*",
+    "notebooks*",
+]
+
+[tool.wheel]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "docs",
+    "dist*",
+    "playground*",
+    "scripts*",
+    "tests*",
+    "checkpoints*",
+    "project_checkpoints*",
+    "debug_checkpoints*",
+    "mlx_configs*",
+    "wandb*",
+    "notebooks*",
+]

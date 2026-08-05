@@ -1,0 +1,35 @@
+[tool.black]
+line-length = 240
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traffixqwen-v5"
+version = "0.1.0"
+description = "TraffiX-Qwen V5-only pipeline for SunLakes Intersection QA"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[tool.setuptools.packages.find]
+include = ["llava*", "traffixqwen_v5*"]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "data*",
+    "dist*",
+    "notebooks*",
+    "playground*",
+    "results*",
+    "saved_weights*",
+    "scripts*",
+    "static*",
+    "tests*",
+    "trl*",
+    "work_dirs*",
+]
