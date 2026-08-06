@@ -22,7 +22,7 @@ Stay up to date with the latest news, updates, and important notices regarding I
 
 
 ## 📦 Data Download
-The Inter-3D VQA Dataset is available upon registration. Please complete the [**Data Request Form**]() to receive the download link via email.
+The sensor data for Inter-3D VQA is available upon registration. Please complete the [**Data Request Form**](https://docs.google.com/forms/d/e/1FAIpQLSfd00G4eSLqWuqtdUOekNfyT9oihNA87RgCflvemejIhnJIug/viewform?usp=publish-editor) to receive the download link via email.
 
 After downloading and decompressing the data, please organize the data to the following structure:
 ```
@@ -65,17 +65,17 @@ All the codes are tested in the following environment:
 * CUDA 12.8
 * [`spconv v2.x`](https://github.com/traveller59/spconv)
 
-### Open-source Generalist VLMs
-We implement the open-source generalist VLM baselines with [LlamaFactory](https://github.com/hiyouga/LLaMAFactory). Follow the official installation instruction to set up the environment first.
+### Dataset Preparation
+For convenience, we provide pre-generated QA datasets for both grounded and free-form formats. You can download them [here]() and skip Steps 1 and 2.
 
-1. Prepare the ground truth information for metadata curation:
+1. Create metadata:
 ```bash
 #  os128: high-resolution LiDAR data, os64: medium-resolution LiDAR data, rs16: low-resolution LiDAR data
 python tools/create_sunlakes_data_v3.py --data_root ../data/  --sensor_type os128 
 ```
 After preprocessing, merge `sunlakes_infos_train.pkl` and `sunlakes_infos_val.pkl` into `sunlakes_infos_trainval.pkl`
 
-2. Generate two types of QA datasets:
+2. Generate QA datasets:
 ```bash
 #  v5: Grounded QA
 python3 utils/create_QA_v5.py --keyframe-fps 2.0 --max-per-type 100 --num-workers 16
@@ -84,7 +84,7 @@ python3 utils/create_QA_v6.py --keyframe-fps 2.0 --max-per-type 100 --num-worker
 ```
 During the QA generation, we can use VLMs to extract environmental infos and LLMs to create diverse question variations (optional). The output files are `intersection_qa_pairs_v5.json` and `intersection_qa_pairs_v6.json`, respectively.
 
-3. Convert the QA datasets to LlamaFactory format:
+3. Convert QA datasets to LlamaFactory format:
 ```bash
 # For grounded QA (v5):
 python3 utils/prepare_llamafactory_intersection_vqa.py \
@@ -111,14 +111,17 @@ PROJECT_ROOT
 ├── 📊 intersection_qa_pairs_v6.json
 ```
 
-4. LoRA SFT for a generalist VLM:
+### Open-source Generalist VLMs
+We implement the open-source generalist VLM baselines with [LlamaFactory](https://github.com/hiyouga/LLaMAFactory). Follow the official installation instruction to set up the environment first.
+
+1. LoRA SFT for a generalist VLM:
 ```shell script
 # For example, train Qwen3-VL-4B with 4 GPUs
 cd LlamaFactory
 FORCE_TORCHRUN=1 NPROC_PER_NODE=4 bash examples/train_lora/intersection_qwen3vl_4b_lora_sft.sh v5/v6
 ```
 
-5. Prediction and evaluation:
+2. Prediction and evaluation:
 ```bash
 # The three empty arguments select the default LoRA adapter directory, prediction output directory, and evaluation output directory, respectively.
 bash examples/train_lora/intersection_qwen3vl_4b_lora_predict_eval.sh "" "" "" val v5/v6
