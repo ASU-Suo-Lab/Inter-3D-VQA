@@ -1475,11 +1475,6 @@ class IntersectionQAGeneratorV6Runtime(IntersectionQAGeneratorV5Runtime):
         sampled = self.sample_keyframes(frames, keyframe_fps)
         eligible_sampled = [frame for frame in sampled if self._frame_has_objects(frame)]
         eligible_indices = [self.frame_index_by_token[self._token(frame)] for frame in eligible_sampled]
-        print(
-            f"Source frames: {len(frames)} | "
-            f"Sampled keyframes: {len(sampled)} | "
-            f"Eligible keyframes: {len(eligible_sampled)}"
-        )
 
         qas: List[Dict] = []
         generation_start = time.perf_counter()
@@ -1511,83 +1506,19 @@ class IntersectionQAGeneratorV6Runtime(IntersectionQAGeneratorV5Runtime):
             for order in range(len(eligible_indices)):
                 qas.extend(ordered_results[order])
 
-        pre_scene_filter_qas = list(qas)
-        (
-            pre_scene_filter_chapter_stats,
-            pre_scene_filter_section_stats,
-            pre_scene_filter_template_stats,
-            pre_scene_filter_bucket_stats,
-        ) = self._compute_statistics(pre_scene_filter_qas)
-
         qas = self._apply_temporal_state_suppression(qas)
-
-        post_scene_filter_qas = list(qas)
-        (
-            post_scene_filter_chapter_stats,
-            post_scene_filter_section_stats,
-            post_scene_filter_template_stats,
-            post_scene_filter_bucket_stats,
-        ) = self._compute_statistics(post_scene_filter_qas)
-
         post_balance_qas = self._apply_global_template_caps(qas)
-        (
-            post_balance_chapter_stats,
-            post_balance_section_stats,
-            post_balance_template_stats,
-            post_balance_bucket_stats,
-        ) = self._compute_statistics(post_balance_qas)
-
         post_ratio_qas = self._apply_final_template_ratios(post_balance_qas)
-        (
-            chapter_stats,
-            section_stats,
-            template_stats,
-            bucket_stats,
-        ) = self._compute_statistics(post_ratio_qas)
-
         public_qas = [self._public_qa(qa) for qa in post_ratio_qas]
 
         payload = {
             "metadata": {
                 "version": "v6",
-                "source_total_frames": len(frames),
-                "sampled_keyframes": len(sampled),
-                "eligible_keyframes": len(eligible_sampled),
                 "source_scene_fps": self.SOURCE_SCENE_FPS,
                 "keyframe_fps": keyframe_fps,
                 "num_workers": worker_count,
                 "parallel_generation_enabled": bool(worker_count > 1 and len(eligible_indices) > 1),
                 "max_per_type_per_frame": max_per_type,
-                "pre_scene_filter_total_qas": len(pre_scene_filter_qas),
-                "post_scene_filter_total_qas": len(post_scene_filter_qas),
-                "pre_balance_total_qas": len(post_scene_filter_qas),
-                "post_balance_total_qas": len(post_balance_qas),
-                "post_ratio_total_qas": len(post_ratio_qas),
-                "total_qas": len(post_ratio_qas),
-                "pre_scene_filter_chapter_statistics": pre_scene_filter_chapter_stats,
-                "pre_scene_filter_section_statistics": pre_scene_filter_section_stats,
-                "pre_scene_filter_template_statistics": pre_scene_filter_template_stats,
-                "pre_scene_filter_template_bucket_statistics": pre_scene_filter_bucket_stats,
-                "post_scene_filter_chapter_statistics": post_scene_filter_chapter_stats,
-                "post_scene_filter_section_statistics": post_scene_filter_section_stats,
-                "post_scene_filter_template_statistics": post_scene_filter_template_stats,
-                "post_scene_filter_template_bucket_statistics": post_scene_filter_bucket_stats,
-                "pre_balance_chapter_statistics": post_scene_filter_chapter_stats,
-                "pre_balance_section_statistics": post_scene_filter_section_stats,
-                "pre_balance_template_statistics": post_scene_filter_template_stats,
-                "pre_balance_template_bucket_statistics": post_scene_filter_bucket_stats,
-                "post_balance_chapter_statistics": post_balance_chapter_stats,
-                "post_balance_section_statistics": post_balance_section_stats,
-                "post_balance_template_statistics": post_balance_template_stats,
-                "post_balance_template_bucket_statistics": post_balance_bucket_stats,
-                "post_ratio_chapter_statistics": dict(sorted(chapter_stats.items())),
-                "post_ratio_section_statistics": dict(sorted(section_stats.items())),
-                "post_ratio_template_statistics": dict(sorted(template_stats.items())),
-                "post_ratio_template_bucket_statistics": bucket_stats,
-                "chapter_statistics": dict(sorted(chapter_stats.items())),
-                "section_statistics": dict(sorted(section_stats.items())),
-                "template_statistics": dict(sorted(template_stats.items())),
-                "template_bucket_statistics": bucket_stats,
                 "template_registry": {k: asdict(v) for k, v in sorted(self.template_registry.items())},
                 "prompt_metadata": self._prompt_metadata(),
                 "structured_targets_enabled": True,
@@ -1627,5 +1558,5 @@ class IntersectionQAGeneratorV6Runtime(IntersectionQAGeneratorV5Runtime):
         }
         print("Writing JSON...")
         Path(output_path).write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"Saved {len(post_ratio_qas)} QA pairs to {output_path}")
+        print(f"Saved QA pairs to {output_path}")
         return public_qas
