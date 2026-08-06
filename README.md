@@ -59,11 +59,15 @@ PROJECT_ROOT
 
 ## 🏋️ Getting Started
 ### Requirements
-All codes are tested in the following environment:
-* Ubuntu 22.04
-* PyTorch 2.8.0
-* CUDA 12.8
-* [`spconv v2.x`](https://github.com/traveller59/spconv)
+The code has been tested in the following environment:
+* Ubuntu 22.04 LTS
+* PyTorch 2.11.0
+* Python 3.11.15
+* CUDA 13.0
+* Other project dependencies:
+```bash
+pip install -r requirements.txt
+```
 
 ### Dataset Preparation
 For convenience, we provide [**pre-generated QA datasets**](https://www.dropbox.com/scl/fo/sm634m7809sxb3v67dk7f/AK1XEoLuCsmmXHvG---LQO4?rlkey=6rp0f4gqrpus2q8s8i1szjfo6&st=fzq7hh8i&dl=0) for both grounded and free-form formats. Then you can skip Steps 1 and 2.
