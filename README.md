@@ -66,9 +66,9 @@ All the codes are tested in the following environment:
 * [`spconv v2.x`](https://github.com/traveller59/spconv)
 
 ### Open-source Generalist VLMs
-We implement the open-source generalist VLM baselines with [LlamaFactory](https://github.com/hiyouga/LLaMAFactory). Follow the [official installation instructions](https://github.com/hiyouga/LLaMAFactory#installation) to set up the environment first.
+We implement the open-source generalist VLM baselines with [LlamaFactory](https://github.com/hiyouga/LLaMAFactory). Follow the official installation instruction to set up the environment first.
 
-1. Generate the intersection metadata:
+1. Prepare the ground truth information for metadata curation:
 ```bash
 #  os128: high-resolution LiDAR data, os64: medium-resolution LiDAR data, rs16: low-resolution LiDAR data
 python tools/create_sunlakes_data_v3.py --data_root ../data/  --sensor_type os128 
@@ -82,7 +82,7 @@ python3 utils/create_QA_v5.py --keyframe-fps 2.0 --max-per-type 100 --num-worker
 #  v6: Free-form QA
 python3 utils/create_QA_v6.py --keyframe-fps 2.0 --max-per-type 100 --num-workers 16
 ```
-The generated files are `intersection_qa_pairs_v5.json` and `intersection_qa_pairs_v6.json`, respectively.
+The output files are `intersection_qa_pairs_v5.json` and `intersection_qa_pairs_v6.json`, respectively.
 
 3. Convert the QA datasets to LlamaFactory format:
 ```bash
@@ -111,9 +111,9 @@ PROJECT_ROOT
 ├── 📊 intersection_qa_pairs_v6.json
 ```
 
-4. LoRA SFT for a generalist VLM, for example:
+4. LoRA SFT for a generalist VLM:
 ```shell script
-# train Qwen3-VL-4B with 4 GPUs
+# For example, train Qwen3-VL-4B with 4 GPUs
 cd LlamaFactory
 FORCE_TORCHRUN=1 NPROC_PER_NODE=4 bash examples/train_lora/intersection_qwen3vl_4b_lora_sft.sh v5/v6
 ```
