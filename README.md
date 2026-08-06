@@ -59,7 +59,7 @@ PROJECT_ROOT
 
 ## 🏋️ Getting Started
 ### Requirements
-All the codes are tested in the following environment:
+All codes are tested in the following environment:
 * Ubuntu 22.04
 * PyTorch 2.8.0
 * CUDA 12.8
@@ -82,7 +82,7 @@ python3 utils/create_QA_v5.py --keyframe-fps 2.0 --max-per-type 100 --num-worker
 #  v6: Free-form QA
 python3 utils/create_QA_v6.py --keyframe-fps 2.0 --max-per-type 100 --num-workers 16
 ```
-During the QA generation, we can use VLMs to extract environmental infos and LLMs to create diverse question variations (optional). The output files are `intersection_qa_pairs_v5.json` and `intersection_qa_pairs_v6.json`, respectively.
+During the QA generation, we can use VLMs to extract environmental infos and LLMs to create diverse question variations (optional).
 
 3. Convert QA datasets to LlamaFactory format:
 ```bash
