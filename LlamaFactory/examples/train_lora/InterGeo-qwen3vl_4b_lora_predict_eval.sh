@@ -14,9 +14,9 @@ fi
 shift || true
 
 if [[ "${DATASET_VERSION}" == "v6" ]]; then
-  DATASET_PREFIX="intersection_vqa_v6_lidar_rawscene_objroute_v2"
+  DATASET_PREFIX="interGeo_vqa_v6_lidar"
 else
-  DATASET_PREFIX="intersection_vqa_lidar_rawscene_objroute_v2"
+  DATASET_PREFIX="interGeo_vqa_v5_lidar"
 fi
 
 EVAL_OUTPUT_DIR="${1:-${LLAMAFACTORY_DIR}/eval/InterGeo-qwen3vl_4b/${DATASET_VERSION}}"

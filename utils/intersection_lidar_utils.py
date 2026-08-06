@@ -7,7 +7,7 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 VLM_ROOT = REPO_ROOT / "VLM"
-PREPARED_DATA_ROOT = REPO_ROOT / "data" / "intersection_lidar_prepared"
+PREPARED_DATA_ROOT = REPO_ROOT / "data" / "interGeo_lidar_prepared"
 DEFAULT_DATASET_VERSION = "v5"
 
 DATASET_VERSION_DEFAULTS = {

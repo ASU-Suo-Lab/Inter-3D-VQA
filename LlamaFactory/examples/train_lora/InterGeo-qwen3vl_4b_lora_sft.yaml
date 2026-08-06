@@ -39,9 +39,9 @@ lora_target: q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj
 additional_target: lidar_object_encoder,lidar_scene_encoder,lidar_object_connector,lidar_scene_direct_proj,lidar_decoder_adapter_blocks.0,lidar_decoder_adapter_blocks.1,lidar_decoder_adapter_blocks.2,lidar_decoder_adapter_blocks.3,lidar_template_router
 
 ### dataset
-dataset_dir: data/intersection_vqa_lidar_rawscene_objroute_v2
-dataset: intersection_vqa_lidar_rawscene_objroute_v2_train
-eval_dataset: intersection_vqa_lidar_rawscene_objroute_v2_val
+dataset_dir: data/interGeo_vqa_v5_lidar
+dataset: interGeo_vqa_v5_lidar_train
+eval_dataset: interGeo_vqa_v5_lidar_val
 template: qwen3_vl_nothink
 cutoff_len: 4096
 overwrite_cache: true

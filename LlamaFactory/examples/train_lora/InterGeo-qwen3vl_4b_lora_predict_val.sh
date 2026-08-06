@@ -22,9 +22,9 @@ fi
 shift || true
 
 if [[ "${DATASET_VERSION}" == "v6" ]]; then
-  DATASET_PREFIX="intersection_vqa_v6_lidar_rawscene_objroute_v2"
+  DATASET_PREFIX="interGeo_vqa_v6_lidar"
 else
-  DATASET_PREFIX="intersection_vqa_lidar_rawscene_objroute_v2"
+  DATASET_PREFIX="interGeo_vqa_v5_lidar"
 fi
 
 DATASET_DIR="${LLAMAFACTORY_DIR}/data/${DATASET_PREFIX}"

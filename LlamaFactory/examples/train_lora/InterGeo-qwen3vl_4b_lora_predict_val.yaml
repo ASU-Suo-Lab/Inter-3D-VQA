@@ -36,8 +36,8 @@ do_predict: true
 finetuning_type: lora
 
 ### dataset
-dataset_dir: data/intersection_vqa_lidar_rawscene_objroute_v2
-eval_dataset: intersection_vqa_lidar_rawscene_objroute_v2_val
+dataset_dir: data/interGeo_vqa_v5_lidar
+eval_dataset: interGeo_vqa_v5_lidar_val
 template: qwen3_vl_nothink
 cutoff_len: 4096
 overwrite_cache: true
