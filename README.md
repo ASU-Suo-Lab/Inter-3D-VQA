@@ -82,7 +82,7 @@ python3 utils/create_QA_v5.py --keyframe-fps 2.0 --max-per-type 100 --num-worker
 #  v6: Free-form QA
 python3 utils/create_QA_v6.py --keyframe-fps 2.0 --max-per-type 100 --num-workers 16
 ```
-During the QA generation, VLMs are utilized to extract environmental infos and LLMs are used to generate diverse question variations (optional). The output files are `intersection_qa_pairs_v5.json` and `intersection_qa_pairs_v6.json`, respectively.
+During the QA generation, we can use VLMs to extract environmental infos and LLMs to create diverse question variations (optional). The output files are `intersection_qa_pairs_v5.json` and `intersection_qa_pairs_v6.json`, respectively.
 
 3. Convert the QA datasets to LlamaFactory format:
 ```bash
