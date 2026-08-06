@@ -66,7 +66,7 @@ All the codes are tested in the following environment:
 * [`spconv v2.x`](https://github.com/traveller59/spconv)
 
 ### Dataset Preparation
-For convenience, we provide pre-generated QA datasets for both grounded and free-form formats. You can download them [here]() and skip Steps 1 and 2.
+For convenience, we provide [**pre-generated QA datasets**](https://www.dropbox.com/scl/fo/sm634m7809sxb3v67dk7f/AK1XEoLuCsmmXHvG---LQO4?rlkey=6rp0f4gqrpus2q8s8i1szjfo6&st=fzq7hh8i&dl=0) for both grounded and free-form formats. Then you can skip Steps 1 and 2.
 
 1. Create metadata:
 ```bash
