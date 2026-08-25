@@ -12,7 +12,7 @@ Stay up to date with the latest news, updates, and important notices regarding I
 - **`2026/08/08`**: The benchmark code for open-source generalist VLMs is released. Currently supported open-source models are as follows: [LLaVA-NeXT](https://llava-vl.github.io/blog/2024-05-10-llava-next-stronger-llms/), [Llama3.2](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md), [Qwen3-VL](https://arxiv.org/abs/2511.21631), [InternVL3](https://arxiv.org/abs/2504.10479)
 - **`2026/08/11`**: The benchmark code for specialized driving VLMs is released. Currently supported driving models are as follows: [Senna-VLM](https://arxiv.org/abs/2410.22313), [NuScenes-QA](https://arxiv.org/abs/2305.14836), [OmniDrive](https://arxiv.org/abs/2606.17536), [OpenDriveVLA](https://arxiv.org/abs/2503.23463), [DriveLM](https://arxiv.org/abs/2312.14150), [BEV-LLM](https://arxiv.org/abs/2507.19370)
 - **`2026/08/13`**: The benchmark code for specialized roadside VLMs is released. Currently supported roadside models are as follows: [TraffiX-Qwen](https://arxiv.org/abs/2502.02449)
-- **`2026/08/23`**: Paper has been accepted by EMNLP 2026 🎉.
+- **`2026/08/23`**: Paper has been accepted by EMNLP 2026 main conference 🎉.
 
 ## ✅ TODO
 - [x] Release the Inter-3D VQA dataset
