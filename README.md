@@ -23,7 +23,7 @@ Stay up to date with the latest news, updates, and important notices regarding I
 
 
 ## 📦 Data Download
-The sensor data for Inter-3D VQA is available upon registration. Please complete the [**Data Request Form**](https://docs.google.com/forms/d/e/1FAIpQLSfd00G4eSLqWuqtdUOekNfyT9oihNA87RgCflvemejIhnJIug/viewform?usp=publish-editor) to receive the download link via email.
+The sensor data used in Inter-3D VQA is derived from [our RESOLVE perception dataset](https://github.com/ASU-Suo-Lab/RESOLVE), which is available upon registration. Please complete the [**Data Request Form**](https://docs.google.com/forms/d/e/1FAIpQLSfd00G4eSLqWuqtdUOekNfyT9oihNA87RgCflvemejIhnJIug/viewform?usp=publish-editor) to receive the download link via email.
 
 After downloading and decompressing the data, please organize the data to the following structure:
 ```
@@ -65,13 +65,10 @@ The code has been tested in the following environment:
 * PyTorch 2.11.0
 * Python 3.11.15
 * CUDA 13.0
-* Other project dependencies:
-```bash
-pip install -r requirements.txt
-```
+* Other project dependencies:  ```pip install -r requirements.txt```
 
 ### Dataset Preparation
-For convenience, we provide [**pre-generated QA datasets**](https://www.dropbox.com/scl/fo/sm634m7809sxb3v67dk7f/AK1XEoLuCsmmXHvG---LQO4?rlkey=6rp0f4gqrpus2q8s8i1szjfo6&st=fzq7hh8i&dl=0) for both grounded and free-form formats. Then you can skip Steps 1 and 2.
+<!-- For convenience, we provide [**pre-generated QA datasets**](https://www.dropbox.com/scl/fo/sm634m7809sxb3v67dk7f/AK1XEoLuCsmmXHvG---LQO4?rlkey=6rp0f4gqrpus2q8s8i1szjfo6&st=fzq7hh8i&dl=0) for both grounded and free-form formats. Then you can skip Steps 1 and 2. -->
 
 1. Create metadata:
 ```bash
@@ -87,7 +84,7 @@ python3 utils/create_QA_v5.py --keyframe-fps 2.0 --max-per-type 100 --num-worker
 #  v6: Free-form QA
 python3 utils/create_QA_v6.py --keyframe-fps 2.0 --max-per-type 100 --num-workers 16
 ```
-During the QA generation, we can use VLMs to extract environmental infos and LLMs to create diverse question variations (optional).
+During the QA generation, you can use VLMs to extract environmental infos and LLMs to create diverse question variations (optional).
 
 3. Convert QA datasets to LlamaFactory format:
 ```bash
@@ -96,6 +93,12 @@ python3 utils/prepare_llamafactory_intersection_vqa.py \
   --qa-json intersection_qa_pairs_v5.json \
   --dataset-version v5 \
   --output-dir LlamaFactory/data/intersection_vqa_v5
+
+# For free-form QA (v6):
+python3 utils/prepare_llamafactory_intersection_vqa.py \
+  --qa-json intersection_qa_pairs_v6.json \
+  --dataset-version v6 \
+  --output-dir LlamaFactory/data/intersection_vqa_v6
 ```
 
 The relevant directory structure is:
