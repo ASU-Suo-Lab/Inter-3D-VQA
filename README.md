@@ -23,7 +23,7 @@ Stay up to date with the latest news, updates, and important notices regarding I
 
 
 ## 📦 Data Download
-The sensor data used in Inter-3D VQA is derived from [our RESOLVE perception dataset](https://github.com/ASU-Suo-Lab/RESOLVE), which is available upon registration. Please complete the [**Data Request Form**](https://docs.google.com/forms/d/e/1FAIpQLSfd00G4eSLqWuqtdUOekNfyT9oihNA87RgCflvemejIhnJIug/viewform?usp=publish-editor) to receive the download link via email. Be sure to specify in the comment that you are requesting the Inter-3D VQA dataset.
+The sensor data used in Inter-3D VQA is derived from [our RESOLVE perception dataset](https://github.com/ASU-Suo-Lab/RESOLVE), which is available upon registration. Please complete the [**Data Request Form**](https://docs.google.com/forms/d/e/1FAIpQLSfd00G4eSLqWuqtdUOekNfyT9oihNA87RgCflvemejIhnJIug/viewform?usp=publish-editor) to receive the download link via email. Please select ```Inter-3D VQA project``` under ```Referral Source``` in the form.
 
 After downloading and decompressing the data, please organize the data to the following structure:
 ```
